@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lattes - A look into the coffee beverage</title>
+	<!--link to CSS files-->
+	<link  href="styles/style.css" rel="stylesheet" type="text/css">
+	<!--Link to fonts and icons-->
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Toggle function for Menu-->
+	<script>
+	function myFunction() {
+		document.getElementById("menuDropDown").classList.toggle("show");
+	}
+	</script>
+</head>
+
+
+
+<!--Logo & Menu-->
+<body id="latte">
+	<header>
+		<nav id="navigation">
+			<!--logo-->
+			<a href="index.html"><img class="logo" src="imgs/latlogo.png" alt="website logo" width="80" height="100"></a>
+			<a href="index.html"><img class="title" src="imgs/latte.png" alt="website name" width="126" height="61"></a>
+
+
+			<!--menu-->
+			<div class="menu">
+				<button onclick="myFunction()" class="menuButton">			<!--Learned from W3SCHOOLS-->
+					<a id="menuIcon">
+						<i class="material-icons">menu</i>
+					</a>
+				</button>
+				<div id="menuDropDown" class="menuContent">
+					<li><A href="index.html">Home</a></li>
+					<li><a href="origin.html">Origin and History</a></li>
+					<li>	<a href="uses.html">Current Uses</a></li>
+					<li>	<a href="serving.html">Serving Styles</a></li>
+				</div>
+			</div>
+		</header>
+
+		<!--Main Content-->
+
+		<section id="content">
+			<div class="container">
+				<div class="introPic">
+					<img class="coffee" src="imgs/drink.jpg" alt="A Latte Cup" >
+				</div>
+				<div class="info">
+					<h1>The World of Lattes</h1>
+					<p>Caffè latte (Italian: [kafˌfɛ lˈlatte]), often shortened to just latte (/ˈlɑːteɪ, ˈlæteɪ/)] in English, is a coffee beverage of Italian origin made with espresso and steamed milk. Variants include the chocolate-flavored mocha or replacing the coffee with another beverage base such as masala chai (spiced Indian tea), mate, matcha, turmeric, or rooibos; other types of milk, such as soy milk or almond milk, are also used.
+						The term comes from the Italian caffellatte or caffè latte, from caffè e latte, literally "coffee and milk"; in English orthography either or both words sometimes have an accent on the final e (a hyperforeignism or to indicate it is pronounced, not the more-common silent final e of English). </p>
+						<p>In northern Europe and Scandinavia, the term café au lait has traditionally been used for the combination of espresso and milk. In France, café latte is from the original name of the beverage (caffè latte); a combination of espresso and steamed milk equivalent to a "latte" is in French called grand crème and in German Milchkaffee or (in Austria) Wiener Melange.</p>
+					</div>
+				</div>
+			</section>
+
+
+<!--FOOTER-->
+			<footer id="footer">
+				<section id="banner">
+					<div id="overlay">
+						<div class="bottomLogo">
+							<a href="index.html">	<img alt="Latte Logo" src="imgs/latlogo.png" width="90" height="110">
+								<img src="imgs/latte.png" alt="Latte" width="131" height="76"></a>
+							</div>
+					</div>
+				</section>
+
+					<ul>
+						<li class="footerInfo">
+							Coded by Eliya Abidi for CCT360 Project 1 | Content: Wikipedia |   Source: W3SCHOOLS | Images by: Tabitha Turner & Nafinia Putra | Logo by: Eliya Abidi
+					</li>
+
+				</ul>
+			</footer>
+
+
+
+
+
+	</body>
+	</html>
